@@ -1,0 +1,28 @@
+@media (max-width: 414px) {
+    .container{
+        width: 80%;
+height: auto;
+margin-left: 10px;
+    }
+    .container .tittle::before {
+        width: 360px;
+        height: 505px;
+    }
+    .tittle:hover::before{
+        width: 365px;
+        height: 510px;
+    }
+}
+@media (max-width: 375px) {
+    .container .tittle::before {
+        width: 325px;
+        height: 475px;
+    }
+    .tittle:hover::before{
+        width: 330px;
+        height: 480px;
+    }
+.tittle{
+    font-size: 20px;
+}
+}
